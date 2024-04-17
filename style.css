@@ -107,6 +107,50 @@ body{
     font-size: 24px;
 }
 
+label{
+    font-size: 20px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+
+.fraca{
+    background-color: #E71B32;
+    height: 30px;
+    width: 33%;
+    position: relative;
+    bottom: 30px;
+}
+
+.media{
+    background-color: #E71;
+    height: 30px;
+    width: 33%;
+    position: relative;
+    bottom: 30px;
+}
+
+.forte{
+    background-color: #E71B;
+    height: 30px;
+    width: 33%;
+    position: relative;
+    bottom: 30px;
+}
+
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
